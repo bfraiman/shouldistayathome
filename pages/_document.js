@@ -1,6 +1,6 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import HeadElements from "../component/head";
+import HeadElements from "../components/head";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {

@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "shouldistayathometoday"
+    "dev": "shouldistayathometoday-dev",
+    "prod": "shouldistayathometoday"
   }
 }
