@@ -8,17 +8,17 @@
   "scripts": {
     "precommit": "NODE_ENV=production lint-staged",
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect",
-    "test": "snyk test"
+    "deploy:development": "firebase deploy",
+    "deploy:staging": "firebase deploy",
+    "start:development": "next start",
+    "start:staging": "NODE_ENV=staging next start"
   },
   "dependencies": {
     "next": "^9.3.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "snyk": "^1.305.1"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

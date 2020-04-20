@@ -14,3 +14,5 @@ public/bundle.js
 .firebaserc
 firebase.json
 out
+serviceAccount*
+.env*
