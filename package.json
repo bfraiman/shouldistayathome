@@ -8,7 +8,7 @@
   "scripts": {
     "precommit": "NODE_ENV=production lint-staged",
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect",

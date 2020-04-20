@@ -8,3 +8,9 @@ jspm_packages
 .node_repl_history
 public/bundle.js
 .next/
+
+
+.firebase/
+.firebaserc
+firebase.json
+out
