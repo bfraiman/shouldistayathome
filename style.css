@@ -146,19 +146,3 @@ ul.share-buttons .sr-only {
   }
 }
 
-.its-friday {
-  background-color: #ff4136;
-}
-
-.its-friday .tagline {
-  color: #fff;
-}
-
-.its-friday #reload,
-.its-friday .share-buttons li {
-  color: #ff9089;
-}
-
-.its-friday .share-buttons a {
-  color: #b30a00;
-}

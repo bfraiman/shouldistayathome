@@ -1,32 +1,32 @@
 import React from "react";
 import Head from "next/head";
-import { IS_FRIDAY } from "../helpers/constans";
+import { IS_ALLOWED } from "../helpers/constans";
 import Widget from "../component/widget";
 
 class Page extends React.Component {
   static async getInitialProps() {
-    return { color: IS_FRIDAY };
+    return { isAllowed: IS_ALLOWED };
   }
 
   render() {
     return (
       <>
-        <Head>
-          <link
+        <Head>  
+          {/* <link
             rel="icon"
             type="image/png"
             href={
-              this.props.color ? "https://shouldideploy.today/dots-red.png" : "https://shouldideploy.today/dots.png"
+              this.props.isAllowed ? "https://shouldistayathome.today/dots-red.png" : "https://shouldistayathome.today/dots.png"
             }
             sizes="32x32"
           />
           <meta
             property="og:image"
-            content={this.props.color ? "https://shouldideploy.today/no.png" : "https://shouldideploy.today/yes.png"}
-          />
-          <title>Should I Deploy Today?</title>
+            content={this.props.isAllowed ? "https://shouldistayathome.today/no.png" : "https://shouldistayathome.today/yes.png"}
+          /> */}
+          <title>Should I Stay at Home TODAY?</title>
         </Head>
-        <div className={`wrapper ${this.props.color && "its-friday"}`}>
+        <div className='wrapper'>
           <Widget />
         </div>
       </>

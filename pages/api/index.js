@@ -1,8 +1,8 @@
-import { getRandom, dayHelper, IS_FRIDAY } from '../../helpers/constans';
+import { getRandom, dayHelper, IS_ALLOWED } from '../../helpers/constans';
 
-export default (req, res) => {
+export default (_, res) => {
   res.status(200).json({
-    shouldideploy: !IS_FRIDAY,
+    shouldistayathome: !IS_ALLOWED,
     message: getRandom(dayHelper()),
   });
 };

@@ -16,7 +16,7 @@ function Widget() {
   return (
     <div className="aligner">
       <div className="item">
-        <h3 className="tagline">Should I Deploy Today?</h3>
+        <h3 className="tagline">Should I Stay at Home TODAY?</h3>
         <h2 id="text">{data}</h2>
         <button type="button" id="reload" onClick={onClick}>
           Hit me again

@@ -1,6 +1,6 @@
-# shouldideploy.today
+# shouldistayathome.today
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fbaires%2Fshouldideploy.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fbaires%2Fshouldideploy?ref=badge_shield)
+## [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbfraiman%2Fshouldistayathome.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbfraiman%2Fshouldistayathome?ref=badge_shield)
 
 ## Getting started
 
@@ -11,10 +11,10 @@
 
 ## Add your reasons
 
-Reasons are located under [reasons.js](https://github.com/baires/shouldideploy/tree/master/src/js/reasons.js)
+Reasons are located under [reasons.js](https://github.com/bfraiman/stayathome/tree/master/src/js/reasons.js)
 
 ## API endpoint
-There is an enpoint to use on your CI or just for fun at `https://shouldideploy.today/api`
+There is an enpoint to use on your CI or just for fun at `https://shouldistayathome.today/api`
 
 ## Credit
 
@@ -22,4 +22,4 @@ Favicon created by [emilegraphics](https://thenounproject.com/search/?q=dot&i=13
 
 
 ## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fbaires%2Fshouldideploy.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fbaires%2Fshouldideploy?ref=badge_large)
+## [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbfraiman%2Fshouldistayathome.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbfraiman%2Fshouldistayathome?ref=badge_small)

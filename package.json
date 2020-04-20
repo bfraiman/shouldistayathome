@@ -1,10 +1,10 @@
 {
-  "name": "shouldideploy",
-  "description": "Should I Deploy today?",
-  "author": "Alexis Sagrbossa",
+  "name": "shouldistayathome",
+  "description": "Should I Stay at Home TODAY?",
+  "author": "Brian Fraiman",
   "license": "WTFPL",
   "version": "1.0.1",
-  "repository": "https://github.com/baires/shouldideploy/",
+  "repository": "https://github.com/bfraiman/shouldistayathome/",
   "scripts": {
     "precommit": "NODE_ENV=production lint-staged",
     "dev": "next",
