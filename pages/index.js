@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { IS_ALLOWED } from "../helpers/constans";
-import Widget from "../component/widget";
+import Widget from "../components/widget";
 
 class Page extends React.Component {
   static async getInitialProps() {
